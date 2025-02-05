@@ -1,0 +1,21 @@
+{
+  "name": "foamycastle/item",
+  "description": "A data container class for use with SplFixedArray-based collections",
+  "require": {
+    "php": "^8.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "11.5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Foamycastle\\Collection\\Item\\": "src"
+    },
+    "files": ["src/helper.php"]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Foamycastle\\Collection\\Test\\Item\\": "test/Item"
+    }
+  }
+}

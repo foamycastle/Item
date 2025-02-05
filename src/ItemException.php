@@ -1,6 +1,6 @@
 <?php
 
-namespace Foamycastle\Collection\Item;
+namespace Foamycastle\Collection;
 
 class ItemException extends \RuntimeException
 {

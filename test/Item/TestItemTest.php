@@ -2,10 +2,8 @@
 
 namespace Foamycastle\Collection\Test\Item;
 
-use Foamycastle\Collection\Item\Item;
-use Foamycastle\Collection\Item\ItemException\ImmutableItem;
+use Foamycastle\Collection\ItemException\ImmutableItem;
 use PHPUnit\Framework\TestCase;
-use PHPUnit\Util\Test;
 
 class TestItemTest extends TestCase
 {

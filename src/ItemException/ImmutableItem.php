@@ -1,10 +1,9 @@
 <?php
 
-namespace Foamycastle\Collection\Item\ItemException;
+namespace Foamycastle\Collection\ItemException;
 
-use Foamycastle\Collection\Item\Item;
-use Foamycastle\Collection\Item\ItemException;
-use Foamycastle\Collection\Item\ItemInterface;
+use Foamycastle\Collection\ItemException;
+use Foamycastle\Collection\ItemInterface;
 
 class ImmutableItem extends ItemException
 {

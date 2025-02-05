@@ -1,6 +1,6 @@
 <?php
 
-namespace Foamycastle\Collection\Item;
+namespace Foamycastle\Collection;
 
 class ItemUpdater extends Item implements ItemUpdateInterface
 {

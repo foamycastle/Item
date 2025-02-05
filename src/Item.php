@@ -1,8 +1,8 @@
 <?php
 
-namespace Foamycastle\Collection\Item;
+namespace Foamycastle\Collection;
 
-use Foamycastle\Collection\Item\ItemException\ImmutableItem;
+use Foamycastle\Collection\ItemException\ImmutableItem;
 
 abstract class Item
 

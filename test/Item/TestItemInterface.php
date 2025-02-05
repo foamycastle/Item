@@ -2,9 +2,9 @@
 
 namespace Foamycastle\Collection\Test\Item;
 
-use Foamycastle\Collection\Item\Item;
-use Foamycastle\Collection\Item\ItemCreatorInterface;
-use Foamycastle\Collection\Item\ItemInterface;
+use Foamycastle\Collection\Item;
+use Foamycastle\Collection\ItemCreatorInterface;
+use Foamycastle\Collection\ItemInterface;
 
 class TestItemInterface extends Item implements ItemInterface, ItemCreatorInterface
 {
