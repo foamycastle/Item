@@ -11,7 +11,9 @@
     "psr-4": {
       "Foamycastle\\Collection\\Item\\": "src"
     },
-    "files": ["src/helper.php"]
+    "files": [
+      "src/item_helper.php"
+    ]
   },
   "autoload-dev": {
     "psr-4": {
