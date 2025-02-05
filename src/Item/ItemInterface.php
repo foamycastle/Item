@@ -2,7 +2,7 @@
 
 namespace Foamycastle\Collection\Item;
 
-interface ItemProperties
+interface ItemInterface
 {
     function isImmutable():bool;
     function doesThrow():bool;
@@ -12,7 +12,6 @@ interface ItemProperties
     function getType():string;
     function hasNumber():bool;
     function update():ItemUpdateInterface;
-
     function getId():string;
 
 }

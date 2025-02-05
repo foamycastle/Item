@@ -2,7 +2,7 @@
 
 namespace Foamycastle\Collection\Item;
 
-interface ItemCreator
+interface ItemCreatorInterface
 {
     public static function Create(int $index, string $name, mixed $data): static;
 

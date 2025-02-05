@@ -3,10 +3,10 @@
 namespace Foamycastle\Collection\Test\Item;
 
 use Foamycastle\Collection\Item\Item;
-use Foamycastle\Collection\Item\ItemCreator;
-use Foamycastle\Collection\Item\ItemProperties;
+use Foamycastle\Collection\Item\ItemCreatorInterface;
+use Foamycastle\Collection\Item\ItemInterface;
 
-class TestItem extends Item implements ItemProperties, ItemCreator
+class TestItemInterface extends Item implements ItemInterface, ItemCreatorInterface
 {
     private function __construct()
     {
