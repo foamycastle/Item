@@ -6,7 +6,7 @@ use Foamycastle\Collection\Item;
 use Foamycastle\Collection\ItemCreatorInterface;
 use Foamycastle\Collection\ItemInterface;
 
-class TestItemInterface extends Item implements ItemInterface, ItemCreatorInterface
+class TestItem extends Item implements ItemInterface, ItemCreatorInterface
 {
     private function __construct()
     {
